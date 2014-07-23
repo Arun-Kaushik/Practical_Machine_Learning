@@ -20,7 +20,7 @@ The data for this project come from this source: http://groupware.les.inf.puc-ri
 First we download the training and test data sets and then we load them into R (training and testing data frames).
 
 ```{r}
-# setwd("C:/Users/KAUSHIK/Desktop/PracticalMachineLearning-masteriaristeid/")
+# setwd("C:/Users/KAUSHIK/Desktop/PracticalMachineLearning/")
 training <- read.csv("./data/pml-training.csv")
 testing <- read.csv("./data/pml-testing.csv")
 ```
